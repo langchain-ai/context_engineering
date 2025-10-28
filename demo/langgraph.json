@@ -1,0 +1,10 @@
+{
+  "graphs": {
+    "agent_1": "./agents/agent_1.py:agent_v1",
+    "agent_2": "./agents/agent_2.py:agent_v2",
+    "agent_3": "./agents/agent_3.py:agent_v3",
+    "agent_4": "./agents/agent_4.py:agent_v4"
+  },
+  "dependencies": ["."],
+  "env": ".env"
+}
