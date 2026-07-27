@@ -9,7 +9,7 @@ Agents need context (e.g., instructions, external knowledge, tool feedback) to p
 ### Prerequisites
 - Python 3.9 or higher
 - [uv](https://docs.astral.sh/uv/) package manager
-- [Deno](https://docs.deno.com/runtime/getting_started/installation/) required for the sandboxed environment in the `4_isolate_context.ipynb` notebook
+- [Deno](https://docs.deno.com/runtime/getting_started/installation/) required only for the optional legacy sandbox example in the `4_isolate_context.ipynb` notebook; `langchain-sandbox` is no longer part of the default install because it is incompatible with the LangChain 1.x dependency set
 
 ### Installation
 1. Clone the repository and activate a virtual environment:
